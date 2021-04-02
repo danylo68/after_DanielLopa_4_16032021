@@ -33,6 +33,7 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    height: auto;
 }
 
 .bloc-lg {
@@ -124,7 +125,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0);
 }
 
 .d-bloc .a-btn:hover,
@@ -300,9 +301,9 @@ a:hover {
 
 .navbar-brand img {
     max-height: 200px;
-    margin: 0 5px 0 0;
+    margin: -21px 5px 0 0;
     display: inline-flex;
-    width: 260px;
+    width: 280px;
 }
 
 .navbar-brand img[src$="svg"] {
@@ -478,6 +479,9 @@ button {
 
 .icon-md {
     font-size: 30px !important;
+    height: 30px;
+    width: 30px;
+    display: block;
 }
 
 .icon-lg {
@@ -788,9 +792,14 @@ h4 {
     justify-content: center;
 }
 
+.tc2-white {
+    position: relative;
+    color: black !important;
+}
+
 .tc-white {
     position: relative;
-    color: #2d0d01 !important;
+    color: white !important;
 }
 .locate__agency {
     width: 28%;
@@ -835,14 +844,14 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
@@ -857,10 +866,6 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
-}
-
-.col-sm-4 h5 {
-    color: black;
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -1062,6 +1067,13 @@ bloc__texte--page2 {
         padding-left: 0;
         padding-right: 0;
     }
+    .page-container {
+        height: auto;
+    }
+    .locate__agency {
+        width: 85%;
+        line-height: 25px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1070,8 +1082,9 @@ bloc__texte--page2 {
     }
 }
 #form_1 {
-    width: 54%;
-    height: 313px;
-    margin-top: -85px;
-    line-height: 38px;
+    width: 100%;
+    height: auto;
+
+    line-height: 32px;
+    font-size: 16px;
 }
