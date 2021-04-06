@@ -631,7 +631,7 @@ a[data-lightbox]:hover img {
 }
 
 .text__center--sub {
-    color: #575757 !important;
+    color: black !important;
 }
 
 h1,
@@ -645,7 +645,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: black;
+    color: black !important;
 }
 
 .container {
@@ -709,7 +709,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333 !important;
+    color: black !important;
 }
 
 .med-width-whitespace {
@@ -723,7 +723,11 @@ h1 {
 }
 
 h4 {
-    color: #333333 !important;
+    color: black !important;
+}
+.center-block {
+    width: 20%;
+    height: auto;
 }
 
 .icons {
