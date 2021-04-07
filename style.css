@@ -756,7 +756,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    width: 100%;
+    width: 270px;
     height: auto;
 }
 
@@ -812,7 +812,7 @@ h4 {
     border-radius: 25px;
     background-color: #503232;
     margin: auto;
-    width: 62%;
+    width: 40%;
     height: auto;
     line-height: 1.5;
     display: flex;
