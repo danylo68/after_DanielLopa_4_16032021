@@ -806,6 +806,19 @@ h4 {
     color: black !important;
 }
 
+.tc-white__up {
+    position: relative;
+    color: white !important;
+    border-radius: 25px;
+    background-color: #503232;
+    margin: auto;
+    width: 62%;
+    height: auto;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+}
+
 .tc-white {
     position: relative;
     color: white !important;
