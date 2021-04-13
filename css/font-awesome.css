@@ -446,6 +446,13 @@
 .fa-maxcdn:before {
     content: "\f136";
 }
+.fa-chevron-up:before {
+    content: "\f077";
+}
+
+.fa-chevron-down:before {
+    content: "\f078";
+}
 .fa-chevron-circle-left:before {
     content: "\f137";
 }
