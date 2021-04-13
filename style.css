@@ -757,7 +757,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    width: 270px;
+    width: 100%;
     height: auto;
 }
 
@@ -808,6 +808,18 @@ h4 {
 }
 
 .tc-white__up {
+    position: relative;
+    color: white !important;
+    border-radius: 25px;
+    background-color: #503232;
+    margin: 15px 15px 15px 15px;
+
+    height: auto;
+    line-height: 1.5;
+    width: 57%;
+    left: 20%;
+}
+.tc-white__down {
     position: relative;
     color: white !important;
     border-radius: 25px;
