@@ -317,7 +317,7 @@ a:hover {
 
 .navbar .nav {
     display: flex;
-    width: 133px;
+    width: 50%;
     justify-content: space-around;
     text-decoration: none;
     list-style: none;
@@ -694,11 +694,10 @@ p {
     font-weight: 700;
 }
 
-.social:focus {
+.social {
     width: 100%;
     margin: auto auto auto auto;
-    display: inline-flex;
-    justify-content: space-around;
+    display: inline-block;
 }
 
 h2 {
@@ -757,8 +756,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    width: 100%;
-    height: auto;
+    width: 345px;
+    height: 290px;
 }
 
 .portfolio-row {
