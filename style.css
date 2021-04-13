@@ -300,7 +300,6 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
     margin: -21px 5px 0 0;
     display: inline-flex;
     width: 280px;
@@ -695,9 +694,9 @@ p {
 }
 
 .social {
-    width: 100%;
+    width: 35%;
     margin: auto auto auto auto;
-    display: inline-block;
+    display: block;
 }
 
 h2 {
@@ -726,8 +725,8 @@ h4 {
     color: black !important;
 }
 .center-block {
-    width: 20%;
-    height: auto;
+    width: 130px;
+    height: 130px;
 }
 
 .icons {
@@ -1024,10 +1023,7 @@ bloc__texte--page2 {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
-    .navbar-brand img {
-        max-height: 40px;
-        width: auto;
-    }
+
     .nav-invert .navbar-header {
         float: none;
         width: 100%;
