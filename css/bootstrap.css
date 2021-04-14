@@ -3742,6 +3742,5 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 
 .center-block {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
 }

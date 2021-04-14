@@ -303,7 +303,7 @@ a:hover {
     margin: -21px 5px 0 0;
     display: inline-flex;
     width: 345px;
-    height: 72px;
+    height: 64px;
 }
 
 .navbar-brand img[src$="svg"] {
@@ -525,6 +525,8 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+    width: 100%;
+    height: auto;
 }
 
 a[data-lightbox]:hover::before {
@@ -727,6 +729,11 @@ h4 {
 .center-block {
     width: 150px;
     height: 150px;
+}
+.content__img--logo {
+    width: 30%;
+    margin: auto;
+    height: auto;
 }
 
 .icons {
