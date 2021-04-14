@@ -296,15 +296,11 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 72px;
-
-    width: 345px;
 }
 
 .navbar-brand img {
     margin: -21px 5px 0 0;
     display: inline-flex;
-
-    height: 64px;
 }
 
 .navbar-brand img[src$="svg"] {
