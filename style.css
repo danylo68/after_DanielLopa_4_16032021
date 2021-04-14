@@ -303,7 +303,7 @@ a:hover {
 .navbar-brand img {
     margin: -21px 5px 0 0;
     display: inline-flex;
-    width: 345px;
+    
     height: 64px;
 }
 
@@ -727,9 +727,7 @@ h1 {
 h4 {
     color: black !important;
 }
-.center-block {
-    width: 150px;
-    height: 150px;
+ 
 }
 .content__img--logo {
     width: 30%;
