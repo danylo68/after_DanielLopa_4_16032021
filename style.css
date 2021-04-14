@@ -290,8 +290,8 @@ a:hover {
 }
 
 .navbar-brand {
-    width: 370px;
-    height: 64px;
+    width: 100%;
+    height: auto;
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
