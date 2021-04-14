@@ -290,6 +290,7 @@ a:hover {
 }
 
 .navbar-brand {
+    width: 370px;
     height: 64px;
     padding: 3px 15px;
     font-size: 25px;
@@ -301,6 +302,8 @@ a:hover {
 
 .navbar-brand img {
     margin: 0px 5px 0 0;
+    width: 370px;
+    height: 64px;
 }
 
 .navbar-brand img[src$="svg"] {
@@ -681,6 +684,10 @@ p {
     display: flex;
     width: 100%;
     flex-direction: column;
+}
+.center-block image-resize-mode {
+    width: 150px;
+    height: 150px;
 }
 
 .h1 {
