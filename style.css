@@ -296,11 +296,11 @@ a:hover {
     font-weight: normal;
     font-weight: 600;
     line-height: 72px;
+    display: inline-block;
 }
 
 .navbar-brand img {
-    margin: -21px 5px 0 0;
-    display: inline-flex;
+    margin: 0px 5px 0 0;
 }
 
 .navbar-brand img[src$="svg"] {
@@ -676,6 +676,11 @@ p {
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
+}
+.col-sm-12 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 
 .h1 {
