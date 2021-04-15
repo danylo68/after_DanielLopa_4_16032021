@@ -684,6 +684,7 @@ p {
     display: flex;
     width: 100%;
     flex-direction: column;
+    margin-top: 34px;
 }
 .center-block image-resize-mode {
     width: 150px;
@@ -831,7 +832,7 @@ h4 {
     border-radius: 25px;
     background-color: #503232;
     margin: auto;
-    width: 40%;
+    width: 50%;
     height: auto;
     line-height: 1.5;
     display: flex;
@@ -846,9 +847,16 @@ h4 {
     width: 53%;
     line-height: 23px;
 }
+.btn-atomic-tangerine2 {
+    background: #fcab88 !important;
+    width: 40%;
+    margin: auto;
+}
 
 .btn-atomic-tangerine {
     background: #fcab88 !important;
+    width: 30%;
+    margin: auto;
 }
 
 .btn-atomic-tangerine:hover {

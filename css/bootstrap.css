@@ -3207,7 +3207,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-brand {
-    float: left;
     height: 50px;
     padding: 15px 15px;
     font-size: 18px;
@@ -3743,4 +3742,6 @@ fieldset[disabled] .navbar-inverse .btn-link:hover {
 .center-block {
     display: block;
     margin: auto;
+    width: 150px;
+    height: 150px;
 }
