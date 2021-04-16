@@ -654,6 +654,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: black !important;
+    font-size: 20px;
 }
 
 .container {
@@ -866,13 +867,13 @@ h4 {
 }
 .btn-atomic-tangerine2 {
     background: #fcab88 !important;
-    width: 40%;
+    width: 140px;
     margin: auto;
 }
 
 .btn-atomic-tangerine {
     background: #fcab88 !important;
-
+    width: 140px;
     margin: auto;
 }
 
@@ -1200,7 +1201,7 @@ bloc__texte--page2 {
         text-align: center;
     }
 }
-#form_1 {
+#form_1:focus {
     width: 100%;
     height: auto;
 
