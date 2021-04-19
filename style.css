@@ -634,7 +634,7 @@ a[data-lightbox]:hover img {
 
 article {
     color: #000000;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .text__center--sub {
@@ -680,7 +680,8 @@ a {
 }
 
 p {
-    font-size: 17px;
+    font-size: 25px;
+    margin-top: 23px;
 }
 
 .tight-width-whitespace {
@@ -883,6 +884,7 @@ h4 {
 
 .ltc-white {
     color: #ffffff !important;
+    margin-top: 22px;
 }
 
 .ltc-white:hover {
