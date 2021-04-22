@@ -3,8 +3,8 @@ body {
     padding: 0;
     background: #fff;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+ 
+   
 }
 
 a,
@@ -23,9 +23,9 @@ a:hover {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0px 50px 0px 10px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+   
+   
+   
     background-size: cover;
     position: relative;
 }
@@ -58,9 +58,8 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto !important;
-    -moz-background-size: auto !important;
-    -o-background-size: auto !important;
+    
+   
     background-size: auto !important;
 }
 
@@ -549,7 +548,6 @@ a[data-lightbox]:hover::before {
 
 a[data-lightbox]:hover img {
     opacity: 0.6;
-    -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
 
@@ -680,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 23px;
 }
 
@@ -951,13 +949,13 @@ bloc__texte--page2 {
     width: 100%;
 }
 
-@media only screen and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (max-width: 1366px) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1018,8 +1016,8 @@ bloc__texte--page2 {
     .site-navigation {
         position: inherit;
         transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
+      
+       
     }
     .nav > li {
         margin-top: 0;
@@ -1055,7 +1053,6 @@ bloc__texte--page2 {
     }
     .navbar-collapse {
         overflow-x: hidden;
-        -webkit-box-shadow: none;
         box-shadow: none;
     }
 
@@ -1172,6 +1169,14 @@ bloc__texte--page2 {
         padding-left: 66px;
         padding-right: 66px;
     }
+    
+   
+    
+    }
+    
+    
+    
+    
 }
 
 @media (max-width: 767px) {
@@ -1193,8 +1198,8 @@ bloc__texte--page2 {
     .site-navigation {
         position: inherit;
         transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
+       
+        
     }
 }
 
